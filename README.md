@@ -1,3 +1,37 @@
+# Project Name
+
+E-Commerce app
+
+## Description
+
+The app features modern design principles, state management using useContext and useReducer, and ensures user interaction for product browsing, adding items to the cart, and a streamlined checkout process.
+Key Features:
+Product Listing: Displays a wide range of products, complete with essential details like name, price, and quantity.
+
+Shopping Cart Management:
+
+Add, update, and remove products in a global shopping cart.
+Cart state is persisted across sessions using localStorage, ensuring that users can return and find their selected products saved.
+Checkout Process:
+
+A checkout page with a form to capture user details like name, address, and payment information.
+Basic form validation to ensure proper input handling.
+State Management:
+
+Efficient state management using useContext for global access to the cart.
+useReducer for handling complex cart actions such as ADD_ITEM, REMOVE_ITEM, UPDATE_QUANTITY, and CLEAR_CART
+
+## Features
+
+- Product listing and details
+- Add to cart, remove from cart, update quantity, and clear cart functionality
+- Checkout form with validation
+- Persistent cart state using localStorage
+
+## Prerequisites
+
+- Node.js (version >= 14.x.x)
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
